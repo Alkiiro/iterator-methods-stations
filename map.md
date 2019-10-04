@@ -1,11 +1,17 @@
 # .map
 
-1. What does `.map` do?
-2. Is the original array modified?
-3. How many arguments does `.map` take?
-4. How many arguments does the _callback function_ take?
-5. Which arguments are required (for both the method and its callback)?
-6. Does the callback need a return value? If so, what needs to be returned?
+1. What does `.map` do?  
+
+2. Is the original array modified?  
+
+3. How many arguments does `.map` take?  
+
+4. How many arguments does the _callback function_ take?  
+
+5. Which arguments are required (for both the method and its callback)?  
+
+6. Does the callback need a return value? If so, what needs to be returned?  
+Callback requires return value from its current iteration, and the map method returns a new array of all iterations.
 
 ## Example 1:
 
